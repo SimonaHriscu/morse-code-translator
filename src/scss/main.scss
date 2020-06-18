@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    #root{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.842);
+        // background-image: url(../img/Morse_Code_album_cover.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background-position: center;
+        h1{
+            font-family: 'Lobster', cursive;
+            color: #E99C36;
+            font-size: 8rem;
+        }
+        form{
+            width: 50vw;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: rgba(0, 0, 0, 0.658);
+            textarea{
+                width: 45vw;
+                height: 10vh;
+                border: none;
+                border-bottom: 3px solid #E99C36;
+                background-color:transparent;
+                color: rgb(255, 255, 254);
+                font-size: 2.5rem;
+                padding: 3vh 0 0 3vw;
+                &::placeholder{
+                    text-align: center;
+                   color: white;
+                }
+                &:focus{
+                    outline: none;
+                }
+                &:focus::placeholder {
+                    color: transparent;
+                  }
+                  &:last-of-type{
+                      height: 25vh;
+                  }
+            }
+        }
+        // .button-box{
+        //     position: relative;
+        //     top: 20vh;
+        //     left: 5vw;
+        //     width: 6vw;
+        //     height: 8vh;
+        //     background-image: url(../img/circle.png);
+        //     background-size: contain;
+        //    background-position: center;
+        //    background-repeat: no-repeat;
+        //   &:hover{
+        //     position: relative;
+        //     top: 20vh;
+        //     left: 5vw;
+        //     width: 6vw;
+        //     height: 8vh;
+        //     background-image: url(../img/grunge-circle-frame-6.png);
+        //     background-size: contain;
+        //    background-position: center;
+        //    background-repeat: no-repeat;
+        //    }
+        // }
+        //    .page-yes{
+        //        width: 40vw;
+        //        height: 80vh;
+        //        position: absolute;
+        //        background-image: url(../img/Morse-Code.jpg);
+        //        background-size: contain;
+        //        background-position: center;
+        //        background-repeat: no-repeat;
+        //    }
+
+        //    .page-no{
+        //     width: 40vw;
+        //     height: 80vh;
+        //     position: absolute;
+        //     background-color: transparent;
+        // }
+        
+    }
+}
