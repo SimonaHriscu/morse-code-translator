@@ -52,44 +52,29 @@
                   }
             }
         }
-        // .button-box{
-        //     position: relative;
-        //     top: 20vh;
-        //     left: 5vw;
-        //     width: 6vw;
-        //     height: 8vh;
-        //     background-image: url(../img/circle.png);
-        //     background-size: contain;
-        //    background-position: center;
-        //    background-repeat: no-repeat;
-        //   &:hover{
-        //     position: relative;
-        //     top: 20vh;
-        //     left: 5vw;
-        //     width: 6vw;
-        //     height: 8vh;
-        //     background-image: url(../img/grunge-circle-frame-6.png);
-        //     background-size: contain;
-        //    background-position: center;
-        //    background-repeat: no-repeat;
-        //    }
-        // }
-        //    .page-yes{
-        //        width: 40vw;
-        //        height: 80vh;
-        //        position: absolute;
-        //        background-image: url(../img/Morse-Code.jpg);
-        //        background-size: contain;
-        //        background-position: center;
-        //        background-repeat: no-repeat;
-        //    }
-
-        //    .page-no{
-        //     width: 40vw;
-        //     height: 80vh;
-        //     position: absolute;
-        //     background-color: transparent;
-        // }
+        .button-box{
+            position: relative;
+            top: 20vh;
+            left: 5vw;
+            width: 6vw;
+            height: 8vh;
+            background-image: url(../img/circle.png);
+            background-size: contain;
+           background-position: center;
+           background-repeat: no-repeat;
+          &:hover{
+            position: relative;
+            top: 20vh;
+            left: 5vw;
+            width: 6vw;
+            height: 8vh;
+            background-image: url(../img/grunge-circle-frame-6.png);
+            background-size: contain;
+           background-position: center;
+           background-repeat: no-repeat;
+           }
+        }
+        
         
     }
 }

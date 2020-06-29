@@ -54,8 +54,7 @@ export default class App extends Component {
 
           <textarea value={this.state.result} />
         </form>
-        <div className="button-box" onChange={this.newPage}></div>
-        {/* <Legend data={this.state.newPage} /> */}
+   
       </React.Fragment>
     );
   }
