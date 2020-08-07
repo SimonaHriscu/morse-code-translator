@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Data from "./data.json";
 import "./scss/main.scss";
-//import Legend from "./components/Legend";
 import Title from "./components/Title";
 console.log(Data);
 
@@ -15,7 +14,6 @@ export default class App extends Component {
 
     this.handleChange = (event) => {
       const toTranslate = event.target.value;
-      // console.log(toTranslate);
       this.setState({
         input: toTranslate,
       });
@@ -34,11 +32,7 @@ export default class App extends Component {
       this.setState({
         result: translated,
       });
-      // console.log(translated);
     };
-    // this.newPage = (e) => {
-    //   e.preventDefault();
-    // };
   }
 
   render() {
@@ -54,8 +48,6 @@ export default class App extends Component {
 
           <textarea value={this.state.result} />
         </form>
-   
-  
       </React.Fragment>
     );
   }
