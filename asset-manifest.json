@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/morse-code-translator/static/css/main.5c83b7e6.chunk.css",
-    "main.js": "/morse-code-translator/static/js/main.4efa99c8.chunk.js",
-    "main.js.map": "/morse-code-translator/static/js/main.4efa99c8.chunk.js.map",
+    "main.css": "/morse-code-translator/static/css/main.c4302283.chunk.css",
+    "main.js": "/morse-code-translator/static/js/main.ae0132dc.chunk.js",
+    "main.js.map": "/morse-code-translator/static/js/main.ae0132dc.chunk.js.map",
     "runtime-main.js": "/morse-code-translator/static/js/runtime-main.bf5552a1.js",
     "runtime-main.js.map": "/morse-code-translator/static/js/runtime-main.bf5552a1.js.map",
     "static/js/2.1c249390.chunk.js": "/morse-code-translator/static/js/2.1c249390.chunk.js",
     "static/js/2.1c249390.chunk.js.map": "/morse-code-translator/static/js/2.1c249390.chunk.js.map",
     "index.html": "/morse-code-translator/index.html",
-    "precache-manifest.096882666fec0b0afb4484e6e47032f5.js": "/morse-code-translator/precache-manifest.096882666fec0b0afb4484e6e47032f5.js",
+    "precache-manifest.104b0170fb47f4eeeb336cb608e31624.js": "/morse-code-translator/precache-manifest.104b0170fb47f4eeeb336cb608e31624.js",
     "service-worker.js": "/morse-code-translator/service-worker.js",
-    "static/css/main.5c83b7e6.chunk.css.map": "/morse-code-translator/static/css/main.5c83b7e6.chunk.css.map",
+    "static/css/main.c4302283.chunk.css.map": "/morse-code-translator/static/css/main.c4302283.chunk.css.map",
     "static/js/2.1c249390.chunk.js.LICENSE.txt": "/morse-code-translator/static/js/2.1c249390.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/morse-code-translator/static/media/grunge-circle-frame-6.1fc93cb2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bf5552a1.js",
     "static/js/2.1c249390.chunk.js",
-    "static/css/main.5c83b7e6.chunk.css",
-    "static/js/main.4efa99c8.chunk.js"
+    "static/css/main.c4302283.chunk.css",
+    "static/js/main.ae0132dc.chunk.js"
   ]
 }
